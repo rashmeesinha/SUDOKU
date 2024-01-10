@@ -54,7 +54,7 @@ window.onload = function () {
 }
 
 function startGame() {
-    //Choose board difficulty
+    //Choose board difficulty//
     if (id("diff-1").checked) board = easy[0];
     else if (id("diff-2").checked) board = medium[0];
     else board = hard[0];
